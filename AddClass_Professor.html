@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Notifications - Professor</title>
+
+	<!-- Adding CSS -->
+	<link rel="stylesheet" type="text/css" href="css/AddClass_Professor.css" />
+
+</head>
+<body>
+	<div id="header" class="center">
+		NotifyMe!
+	</div>
+
+	<hr>
+
+	<form action="ViewNotifications_Professor.html" class="center">
+		<button id="viewNotifications">View Notifications</button>
+	</form>
+
+	<form action="./ViewNotifications_Professor.html" class="center" id="addButtonForm">
+		<div id="addAClassLabel" class="center">Add a Class:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+		<!-- Course Name textbox -->
+		<div id="courseSelector" class="center">
+			<span class="courseLabels">Course Name:&nbsp;</span>
+
+			<input type="text" class="courseTextbox" required>
+
+		</div>
+
+		<!-- Class # textbox -->
+		<div id="classSelector" class="center">
+			<span class="courseLabels">Class #:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+			<input type="text" class="courseTextbox" required>
+		</div>
+
+		<!-- Professor textbox -->
+		<div id="professorSelector" class="center">
+			<span class="courseLabels">Professor:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+			<input type="text" class="courseTextbox" required>
+		</div>
+
+		<button id="addClassButton" onClick="alertFunction(this.form)">Add Class</button>
+	</form>
+
+	<script type="text/javascript" src="./js/AddClass_Professor.js"></script>
+
+</body>
+</html>

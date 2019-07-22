@@ -1,0 +1,89 @@
+body{
+	background-color: whitesmoke;
+
+}
+#header {
+	font-size: 			3.5em;
+	color: 				#0066cc;
+	font-style: 		italic;
+	font-weight: 		bold;
+	margin-top: 		1em;
+}
+.center {
+	margin: 			auto;
+	display: 			table;
+}
+#notificationsLabel {
+	font-family: 		helvetica;
+	font-weight: 		bold;
+	font-size: 			1.5em;
+	margin-top: 		0.6em;
+	margin-bottom: 		1em;
+}
+#addClassButton {
+	margin-left: 				9%;
+	background-color: 			#0066cc;
+	color: 						white;
+	font-weight: 				bold;
+	font-size: 					1.1em;
+	padding-left: 				0.7em;
+	padding-right: 				0.7em;
+	padding-top: 				0.2em;
+	padding-bottom: 			0.2em;
+	border-top-left-radius: 	8px;
+	border-top-right-radius: 	8px;
+	border-bottom-left-radius: 	8px;
+	border-bottom-right-radius: 8px;	
+	font-family: 				helvetica;		
+}
+#sendMessageButton {
+	margin-left: 				-9%;
+	background-color: 			#0066cc;
+	color: 						white;
+	font-weight: 				bold;
+	font-size: 					1.1em;
+	padding-left: 				0.7em;
+	padding-right: 				0.7em;
+	padding-top: 				0.2em;
+	padding-bottom: 			0.2em;
+	border-top-left-radius: 	8px;
+	border-top-right-radius: 	8px;
+	border-bottom-left-radius: 	8px;
+	border-bottom-right-radius: 8px;	
+	font-family: 				helvetica;		
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+	border: 		2px solid black;
+}
+
+.message {
+	width: 			26em;
+}
+
+.check {
+	width: 			6em;
+}
+
+th, td {
+    margin-left: 	auto;
+    margin-right: 	auto;
+    padding-top: 	0.5em;
+    padding-bottom: 0.5em;
+}
+
+input[type="checkbox"] {
+	display: 		block;
+    margin-left: 	auto;
+    margin-right: 	auto;
+}
+
+.readRow {
+	border-right-style: 	hidden;
+	border-left-style: 		hidden;
+	border-bottom-style: 	hidden;
+}

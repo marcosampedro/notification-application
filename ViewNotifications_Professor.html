@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Notifications - Professor</title>
+
+	<link rel="stylesheet" type="text/css" href="css/ViewNotifications_Professor.css" />	
+
+</head>
+<body>
+	<div id="header" class="center">
+		NotifyMe!
+	</div>
+
+	<hr>	
+
+	<form action="" id="navigationButtons" 	class="center">
+		<!-- Send Message Button -->
+		<button 	id="sendMessageButton" 	onClick="openSendMessage(this.form)">Send Message</button>
+		<!-- Add Class Button -->
+		<button 	id="addClassButton" 	onClick="openAddClass(this.form)">+ Add a Class</button>
+	</form>
+
+	<div id="notificationsLabel" class="center"><u>Notifications</u>&nbsp;&nbsp;&nbsp;<!-- Notifications:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --></div>
+
+	<div id="notificationsTable" class="center">
+		<table>
+			<tr>
+				<!-- Message Center -->
+				<th class="message">Messages</th>
+			</tr>
+			<tr>
+				<td class="message">
+					<strong><u>CIS 430: Class Cancelled (4/30)</u></strong><br>
+					Scholars,<br><br>
+					Unfortunately I'll need to cancel today's 4:35pm class.
+				</td>
+			</tr>
+			<tr>
+				<td class="message">
+					<strong><u>CIS 430 Test Posted</u></strong><br>
+					Scholars,<br><br>
+					The following test has been made available in Part 4: Hybrid: Q10
+				</td>
+			</tr>
+			<tr>
+				<td class="message">
+					<strong><u>CIS 430 Part 3 Slides Posted</u></strong><br>
+					Scholars,<br><br>
+					The Lecture slides for part 3 are posted as "Part 3: Responsive Web Slides"
+				</td>
+			</tr>
+			<tr 	class="readRow">
+				<td></td>
+			</tr>
+		</table>
+	</div>
+
+	<script type="text/javascript" src="./js/ViewNotifications_Professor.js"></script>
+</body>
+</html>

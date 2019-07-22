@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Notifications - Student</title>
+
+	<link rel="stylesheet" type="text/css" href="css/AddClass_Student.css" />
+
+</head>
+<body>
+	<div id="header" class="center">
+		NotifyMe!
+	</div>
+
+	<hr>
+
+	<form action="ViewNotifications_Student.html" class="center">
+		<button id="viewNotifications">View Notifications</button>
+	</form>
+
+	<div id="addAClassLabel" class="center">Add a Class:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+	<div id="courseSelector" class="center">
+		<span class="courseLabels">Course Name:&nbsp;</span>
+
+		<!-- Course DropDown -->
+		<select name="ddlCourse" class="courseDropDown">
+			<option value="cis235">CIS 430</option>
+			<option value="cis365">CIS 365</option>
+			<option value="cis425">CIS 425</option>
+			<option value="cis430">CIS 345</option>
+		</select>
+	</div>
+
+	<!-- Class Number DropDown -->
+	<div id="classSelector" class="center">
+		<span class="courseLabels">Class #:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+		<select name="ddlCourse" class="courseDropDown">
+			<option value="28541">28541</option>
+			<option value="28593">28593</option>
+			<option value="34859">34859</option>
+			<option value="34874">34874</option>
+		</select>
+	</div>
+
+	<!-- Professor DropDown -->
+	<div id="professorSelector" class="center">
+		<span class="courseLabels">Professor:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+		<select name="ddlCourse" class="courseDropDown">
+			<option value="dmazzola">Daniel Mazzola</option>
+			<option value="kmoser">Kathleen Moser</option>
+			<option value="kroumina">Kavous Roumina</option>
+			<option value="aahmad">Altaf Ahmad</option>
+		</select>
+	</div>
+
+	<!-- Add Class Button -->
+	<form action="" class="center">
+		<button id="addClassButton" onClick="alertFunction()">Add Class</button>
+	</form>
+
+	<script type="text/javascript" src="./js/AddClass_Student.js"></script>
+
+</body>
+</html>

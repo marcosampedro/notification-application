@@ -1,0 +1,93 @@
+body {
+	background-color: #0066cc;
+}
+#header {
+	font-size: 		3.5em;
+	color: 			white;
+	font-style: 	italic;
+	font-weight: 	bold;
+	margin-top: 	1em;
+}
+.center {
+	margin: 		auto;
+	display: 		table;
+}
+#userLabel {
+	color: 			white;
+	font-size: 		1.1em;
+	font-family: 	helvetica;
+}
+#passwordLabel {
+	color: 			white;
+	font-size: 		1.1em;
+	font-family: 	helvetica;
+}
+#rememberMe {
+	color: 			white;
+	font-size: 		0.7em;
+	font-family: 	helvetica;
+}
+button {
+	background-color: 			#3D8BCD;
+	color: 						white;
+	border: 					1px outset #3D8BCD;
+	font-size: 					1em;
+	padding-left: 				7.7em;
+	padding-right: 				7.7em;
+	padding-top: 				0.6em;
+	padding-bottom: 			0.6em;
+	font-family: 				helvetica;
+	margin-bottom: 				2.2em;
+	margin-top: 				1.5em;
+	border-top-left-radius: 	8px;
+	border-top-right-radius: 	8px;
+	border-bottom-left-radius: 	8px;
+	border-bottom-right-radius: 8px;
+}
+input[type="text"] {
+	width: 			18.7em;
+	border: 		1px solid black;
+	height: 		1.5em;
+	font-size: 		1em;
+	margin-bottom: 	1em;
+	margin-top: 	0.4em;
+}
+input[type="password"] {
+	width: 			18.7em;
+	border: 		1px solid black;
+	height: 		1.5em;
+	font-size: 		1em;
+	margin-bottom: 	0.7em;
+	margin-top: 	0.4em;
+}
+input[type="checkbox"] {
+	margin-bottom: 	2em;
+}
+p {
+	width: 				19em; 
+		text-align: 	center; 
+		border-bottom: 	1px solid #3D8BCD; 
+		line-height: 	0.1em;
+}
+p span {
+	background: 	#0066cc; 
+	padding: 		0 10px;
+	color: 			white;
+	font-family: 	helvetica;
+	font-size: 		0.8em;
+}
+a {
+	font-family: 	helvetica;
+	color: 			white;
+	font-size: 		0.8em;
+}
+#wrongPassword {
+	display: 			none;
+	color: 				black;
+	font-weight: 		bold;
+	background-color: 	#FF9999;
+	padding: 			0.2em 1em;
+	border: 			0.14em solid red;
+	font-family: 		helvetica;
+	font-size: 			0.89em;
+}

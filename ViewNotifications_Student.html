@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Notifications - Student</title>
+
+	<link rel="stylesheet" type="text/css" href="css/ViewNotifications_Student.css" />
+
+</head>
+<body>
+	<div id="header" class="center">
+		NotifyMe!
+	</div>
+
+	<hr>
+	
+	<!-- Add Class Button -->
+	<form action="AddClass_Student.html">
+		<button id="addClassButton">+ Add a Class</button>
+	</form>
+
+	<div id="notificationsLabel" class="center"><u>Notifications</u>&nbsp;&nbsp;&nbsp;<!-- Notifications:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --></div>
+
+	<div id="notificationsTable" class="center">
+		<table>
+			<tr>
+				<th class="message">Messages</th>
+				<th class="check">Read?</th>
+			</tr>
+			<tr>
+				<td class="message">
+					<strong><u>CIS 430: Class Cancelled (4/30)</u></strong><br>
+					Scholars,<br><br>
+					Unfortunately I'll need to cancel today's 4:35pm class.
+				</td>
+				<td class="check"><input type="checkbox" name="read" value=""></td>
+			</tr>
+			<tr>
+				<td class="message">
+					<strong><u>CIS 425: HW8 Due Date Extension</u></strong><br>
+					Hi all,<br><br>
+					Due to recent Citrix issues I am extended the due date for HW8 to Tuesday, 4/1.
+				</td>
+				<td class="check"><input type="checkbox" name="read" value=""></td>
+			</tr>
+			<tr>
+				<!-- Messages -->
+				<td class="message">
+					<strong><u>CIS 345: Quiz 5 on Tuesday</u></strong><br>
+					Hi all,<br><br>
+					Your final CIS 345 quiz is scheduled on Tuesday, April 17. It will cover material from IC12-15.
+				</td>
+				<td class="check"><input type="checkbox" name="read" value=""></td>
+			</tr>
+			<tr>
+				<td class="message">
+					<strong><u>CIS 430: Test Posted</u></strong><br>
+					Scholars,<br><br>
+					The following test has been made available in Part 4: Hybrid: Q10
+				</td>
+				<td class="check"><input type="checkbox" name="read" value=""></td>
+			</tr>
+			<tr>
+				<td class="message">
+					<strong><u>CIS 430: Part 3 Slides Posted</u></strong><br>
+					Scholars,<br><br>
+					The Lecture slides for part 3 are posted as "Part 3: Responsive Web Slides"
+				</td>
+				<!-- Read CheckBox -->
+				<td class="check"><input type="checkbox" name="read" value=""></td>
+			</tr>
+			<tr class="readRow">
+				<td></td>
+				<td class="readRow"><button id="readButton" onclick="hideRow();">Mark as Read</button></td>
+			</tr>
+		</table>
+	</div>
+
+	<script type="text/javascript" src="./js/ViewNotifications_Student.js"></script>
+
+
+</body>
+</html>

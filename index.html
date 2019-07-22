@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NotifyMe!: Log in</title>
+
+	<link rel="stylesheet" type="text/css" href="css/LoginPage.css" />
+
+</head>
+<body>
+	<div id="header" class="center">
+		NotifyMe!
+	</div>
+
+	<br><br>
+
+	<form action="" id="usernameAndPassword" class="center">
+		<span 	id="wrongPassword">The username or password is incorrect</span>
+		<br>
+		<!-- ASURITE Username textbox -->
+		<span 	id="userLabel">ASURITE Username</span>
+		<br>
+		<input 	type="text" id="usernameTextbox">
+		<br><br>
+		<!-- Password textbox -->
+		<span 	id="passwordLabel">Password</span>
+		<br>
+		<input 	type="password" id="passwordTextbox">
+		<br>
+		<!-- Remember Password checkbox -->
+		<input 	type="checkbox"><span id="rememberMe">Remember password</span>
+		<br>
+		<!-- Login Button -->
+		<button type="button" id="loginButton" onClick="login(this.form)">LOG IN</button>
+	</form>
+
+	<p id="OrLabel" class="center"><span>Or</span></p>
+
+	<br><br>
+
+	<!-- Sign Up page (Make Profile (Professor/Student)) -->
+	<a href="./SignUp.html" class="center">Sign Up!</a>
+
+	<script type="text/javascript" src="./js/LoginPage.js"></script>
+</body>
+</html>

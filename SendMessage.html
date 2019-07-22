@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NotifyMe!</title>
+
+	<script type="text/javascript" src="./js/mysql.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/SendMessage.css" />
+
+</head>
+<body>
+	<div id="header" class="center">
+		NotifyMe!
+	</div>
+
+	<hr>
+
+	<form action="ViewNotifications_Professor.html" class="center">
+		<button id="viewNotifications">View Notifications</button>
+	</form>
+
+	<!-- Select Class DropDown -->
+	<div id="classSelector" class="center">
+		<span id="classLabel">Select Class:</span>
+
+		<select name="ddlClass" id="classDropDown">
+			<option value="cis235">CIS 430</option>
+			<option value="cis365">CIS 365</option>
+			<option value="cis425">CIS 425</option>
+			<option value="cis430">CIS 345</option>
+		</select>
+	</div>
+
+
+	<br>
+
+	<!-- Subject Field and Text Area textbox -->
+	<form  id="subjectAndMessageForm" class="center">
+		<textarea rows="1" 	cols="35" id="subjectBox" placeholder="Subject" required=""></textarea>
+		<textarea rows="15" cols="35" id="messageBox"></textarea required>
+		<!-- Send Button -->
+		<button id="sendButton" onClick="alertFunction(this.form)">Send</button>
+	</form>
+
+	<script type="text/javascript" src="./js/SendMessage.js"></script>
+
+</body>
+</html>

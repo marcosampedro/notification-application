@@ -1,0 +1,75 @@
+body{
+	background-color: whitesmoke;
+
+}
+#header {
+	font-size: 		3.5em;
+	color: 			#0066cc;
+	font-style: 	italic;
+	font-weight: 	bold;
+	margin-top: 	1em;
+}
+.center {
+	margin: 		auto;
+	display: 		table;
+}
+#addAClassLabel {
+	font-family: 	helvetica;
+	font-weight: 	bold;
+	font-size: 		1.5em;
+	margin-top: 	0.9em;
+	margin-bottom: 	2em;
+}
+#addClassButton {		
+	margin-left: 				12.5em;
+	background-color: 			#0066cc;
+	color: 						white;
+	font-weight: 				bold;
+	font-size: 					1.1em;
+	padding-left: 				0.7em;
+	padding-right: 				0.7em;
+	padding-top: 				0.2em;
+	padding-bottom: 			0.2em;
+	border-top-left-radius: 	8px;
+	border-top-right-radius: 	8px;
+	border-bottom-left-radius: 	8px;
+	border-bottom-right-radius: 8px;	
+	font-family: 				helvetica;		
+}
+#courseSelector {
+	margin-top: 	1em;
+}
+.courseLabels {
+	float: 			left;
+	font-size: 		1.3em;
+	margin-right: 	1em;
+	font-family: 	helvetica;
+}
+.courseDropDown {
+	float: 				left;
+	font-size: 			1.2em;
+	background-color: 	white;
+}
+select {
+	width: 				9em;
+	text-align-last: 	center;
+	margin-bottom: 		3em;
+}
+#viewNotifications {
+	margin-left: 				-26%;
+	background-color: 			#0066cc;
+	color: 						white;
+	font-weight: 				bold;
+	font-size: 					1.3em;
+	margin-top: 				0.7em;
+	padding-left: 				0.7em;
+	padding-right: 				0.7em;
+	padding-top: 				0.2em;
+	padding-bottom: 			0.2em;
+	border-top-left-radius: 	8px;
+	border-top-right-radius: 	8px;
+	border-bottom-left-radius: 	8px;
+	border-bottom-right-radius: 8px;
+	font-family: 				helvetica;
+	width: 						10.5em;
+}
